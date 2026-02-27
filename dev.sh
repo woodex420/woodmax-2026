@@ -20,7 +20,8 @@ echo -e "${YELLOW}Setting up environment files...${NC}"
 if [ ! -f "./server/.env" ]; then
     echo -e "${YELLOW}Creating server/.env...${NC}"
     cat > "./server/.env" << 'EOF'
-SUPABASE_URL=https://xyzxyzxyz.supabase.co
+SUPABASE_URL=https://vocqqajpznqyopjcymer.supabase.co
+# replace the anon and service keys with your own value after the file is created
 SUPABASE_ANON_KEY=your_anon_key_here
 SUPABASE_KEY=your_service_key_here
 JWT_SECRET=your_jwt_secret_here
