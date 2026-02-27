@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev -p 4000",
-    "start": "node dist/index.js",
-    "build": "tsc -b",
+    "start": "next start -p 4000",
+    "build": "next build",
     "lint": "eslint .",
     "clean": "rm -rf .next"
   },
